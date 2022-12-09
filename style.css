@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    padding: 14px;
+    justify-content: space-around;
+}
+
+.header {
+    background-color: #1F2937;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 18px;
+    color: #E5E7EB;   
+
+}
+
+.links {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    gap: 16px;
+}
