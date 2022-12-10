@@ -1,6 +1,7 @@
 body{
     display: flex;
     flex-direction: column;
+    width: 1500px;
 }
 
 .header {
@@ -16,6 +17,7 @@ body{
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: 700;
 }
 
 a {
@@ -30,4 +32,39 @@ a {
     list-style-type: none;
     margin: 0;
     gap: 16px;
+}
+
+.upper-body {
+    padding: 42px;
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+}
+.upper-body-content {
+    margin-right: 80px;
+}
+.main-text {
+    font-size: 48px;
+    font-weight: 700;
+    color: #F9FAF8;
+}
+.subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.upper-body button {
+    background-color: #3882F6;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: 700;
+    padding: 8px 36px;
+    margin-top: 5px;
+}
+.upper-body
+img {
+    display: flex;
+    align-self:flex-end;
+    height: auto;
+    width: 320px;
 }
