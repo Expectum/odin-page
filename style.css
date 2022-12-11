@@ -43,7 +43,7 @@ a {
 .upper-body .content {
     margin-right: 80px;
 }
-.main-text {
+.upper-body .main-text {
     font-size: 48px;
     font-weight: 700;
     color: #F9FAF8;
@@ -67,4 +67,36 @@ img {
     align-self:flex-end;
     height: auto;
     width: 320px;
+}
+
+.middle-body {
+    text-align: center;
+    background-color: #1F2937;
+}
+
+.middle-body .main-text {
+    margin-bottom: 32px;
+    font-size: 36px;
+    font-weight: 700;
+    color: #1F2937;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.info {
+    max-width: 200px;
+}
+
+.middle-body .text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.middle-body img {
+    width: 220px;
+    height: 200px;
 }
