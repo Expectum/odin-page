@@ -71,7 +71,7 @@ img {
 
 .middle-body {
     text-align: center;
-    background-color: #1F2937;
+    background-color: #ffffff;
 }
 
 .middle-body .main-text {
@@ -93,10 +93,30 @@ img {
 
 .middle-body .text {
     font-size: 18px;
-    color: #E5E7EB;
+    color: gray;
 }
 
 .middle-body img {
     width: 220px;
     height: 200px;
+}
+
+.quote-body {
+    background-color: #E5E6EB;
+    padding:150px;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.quote {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937
+}
+.author {
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 500px;
+    font-size: 24px;
+    font-weight: 700;
 }
