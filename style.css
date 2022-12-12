@@ -8,9 +8,6 @@ body{
     display: flex;
     padding: 14px;
     justify-content: space-around;
-}
-
-.header {
     background-color: #1F2937;
 }
 
@@ -24,7 +21,6 @@ a {
     text-decoration: none;
     font-weight: 18px;
     color: #E5E7EB;   
-
 }
 
 .links {
@@ -119,4 +115,38 @@ img {
     margin-left: 500px;
     font-size: 24px;
     font-weight: 700;
+}
+
+.lower-body {
+    padding: 80px;
+}
+
+.lower-body .content {
+    background-color: #3882F6;
+    padding: 40px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.lower-body .no-button {
+    margin-right: 80px;
+}
+
+.lower-body .main-text {
+font-size: 24px;
+color:#F9FAF8;
+}
+
+.lower-body button {
+    background-color: #3882F6;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #E5E7EB;
+    display:flex;
+    border: 2px solid #E5E7EB;
+    font-weight: 700;
+    padding: 8px 36px;
+    margin-top: 5px;
 }
